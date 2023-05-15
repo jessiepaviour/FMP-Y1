@@ -5,6 +5,8 @@ using UnityEngine.UIElements;
 
 public class Interactable : MonoBehaviour
 {
+
+    [Header("Interact Script")]
     // adds/removes an InteractionEvent to the gameobject
     public bool useEvents;
     
