@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class KeyCard : Interactable
 {
@@ -12,6 +14,10 @@ public class KeyCard : Interactable
 
     public string keyInUse;
 
+    [SerializeField]
+    private GameObject console;
+    private bool doorOpen;
+
     private void Start()
     {
         redKey.SetActive(false); 
@@ -21,23 +27,29 @@ public class KeyCard : Interactable
     }
     protected override void Interact()
     {
-        keyInUse.ToUpper();
+        //keyInUse.ToUpper();
 
-        if (keyInUse == "RED")
-        {
-            redKey.SetActive(true);
-        }
-        else if (keyInUse == "BLUE")
-        {
-            blueKey.SetActive(true);
-        }
-        else if (keyInUse == "GREEN")
-        {
-            greenKey.SetActive(true);
-        }
-        else if (keyInUse == "STANDARD")
-        {
-            standardKey.SetActive(true);
-        }
+        //if (keyInUse == "RED")
+        //{
+        //    redKey.SetActive(true);
+        //}
+        
+        //if (keyInUse == "BLUE")
+        //{
+        //    blueKey.SetActive(true);
+        //}
+        
+        //if (keyInUse == "GREEN")
+        //{
+        //    greenKey.SetActive(true);
+        //}
+        
+        //if (keyInUse == "STANDARD")
+        //{
+        //    standardKey.SetActive(true);
+        //}
+
+        doorOpen = !doorOpen;
+        console.GetComponent<Animator>().SetBool("IsOpen", doorOpen);
     }
 }
