@@ -879,6 +879,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: DoorConsole (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4029530400965818434, guid: 8be0a6976654bff4da633546614194f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029530400965845098, guid: 8be0a6976654bff4da633546614194f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4029530400965864910, guid: 8be0a6976654bff4da633546614194f9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
     - target: {fileID: 5998991460371719322, guid: 8be0a6976654bff4da633546614194f9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.069
@@ -1645,6 +1657,22 @@ PrefabInstance:
     - target: {fileID: 4086050562468350223, guid: 0e76ffcb0cbefb743b51d6dd72660336, type: 3}
       propertyPath: m_Name
       value: SupplyRoomX1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684108769003836180, guid: 0e76ffcb0cbefb743b51d6dd72660336, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684108769003866940, guid: 0e76ffcb0cbefb743b51d6dd72660336, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684108769003884194, guid: 0e76ffcb0cbefb743b51d6dd72660336, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5684108769003953840, guid: 0e76ffcb0cbefb743b51d6dd72660336, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects:
